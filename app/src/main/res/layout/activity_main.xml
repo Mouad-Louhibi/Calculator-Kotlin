@@ -160,7 +160,7 @@
         android:text="-" />
 
     <TextView
-        android:id="@+id/tvControl"
+        android:id="@+id/Result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/btndivide"
@@ -174,14 +174,14 @@
         android:text="Results"/>
 
     <TextView
-        android:id="@+id/tvResult"
+        android:id="@+id/Operation"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/tvControl"
-        android:layout_alignEnd="@+id/tvControl"
+        android:layout_above="@+id/Result"
+        android:layout_alignEnd="@+id/Result"
         android:layout_alignLeft="@+id/btn9"
         android:textSize="16sp"
-        android:layout_alignRight="@+id/tvControl"
+        android:layout_alignRight="@+id/Result"
         android:layout_alignStart="@+id/btn9"
         android:layout_marginBottom="41dp"
         android:text="Operation"/>
